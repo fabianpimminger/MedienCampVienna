@@ -1,0 +1,22 @@
+@import "neat/neat-helpers";
+
+
+// Change the grid settings
+$column: 100px;
+$gutter: 40px;
+$grid-columns: 12;
+$max-width: 1266px;
+
+$desktop-large: new-breakpoint(min-width 1201px 12);
+$desktop-small: new-breakpoint(max-width 1200px 12);
+$desktop-small-up: new-breakpoint(min-width 1051px 12);
+$desktop-small-only: new-breakpoint(max-width 1200px min-width 1051px 6);
+
+$tablet-large: new-breakpoint(max-width 1050px 9);
+$tablet-large-only: new-breakpoint(max-width 1050px min-width 801px 9);
+$tablet-large-up: new-breakpoint(min-width 801px 9);
+$tablet-small: new-breakpoint(max-width 800px 6);
+$tablet-small-only: new-breakpoint(max-width 800px min-width 640px 6);
+$tablet-small-up: new-breakpoint(min-width 641px 6);
+
+$mobile: new-breakpoint(max-width 640px 3);

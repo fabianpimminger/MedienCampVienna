@@ -1,0 +1,38 @@
+.site-footer{
+	background: $color__border;
+	margin: 0px;
+  padding: 3em;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+
+.footer-navigation {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+	}
+	li {
+		display: inline-block;
+		position: relative;
+		list-style: none;
+		margin-right: 1.2em;
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		color: white;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	}
+}

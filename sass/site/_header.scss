@@ -1,0 +1,137 @@
+body{
+	padding-top: 83px;
+}
+
+.site-header{
+	@extend .clear;
+	
+	height: 83px;
+	background: #F9F9F9;
+	padding-top:9px;
+  position: fixed;
+  width: 100%;
+	z-index: 800;
+	top: 0;
+
+  
+	@include media($mobile){
+		height: 42px;
+		font-size: 1em;
+		padding-top: 7px;
+
+
+	}	
+	
+	.site-branding{
+		width: 27%;
+    float: left;
+    text-align: left;
+    
+
+		@include media($tablet-small-only){
+			padding-top: 5px;
+		}
+		
+		@include media($tablet-small){	
+			width: 20%;		
+		}	
+
+		@include media($mobile){	
+			width: 80%;		
+			
+			img{
+				max-height: 28px;
+			}
+		}	
+
+	}
+	
+	.main-navigation{
+		display: block;
+		float: right;
+		width: 73%;
+    padding-left: 0em;
+    padding-top: 12px;
+    padding-bottom: 0px;
+
+		@include media($tablet-small){
+			width: 80%;
+		}		
+    
+		@include media($mobile){
+			display:none;
+			width: 80%;
+		}		
+		
+		ul{
+			li{
+				display: inline-block;
+				font-size: 1.1em;
+				text-transform: uppercase;
+				padding: 0.2em 0.4em;
+				margin: 0 0.2em;
+				
+				@include media($tablet-large){
+					font-size: 1.0em;
+				}
+				@include media($tablet-small){
+					font-size: 0.9em;
+				}
+				&.active{
+					background:$color__border;
+					border-radius: 5px;
+					
+					a{
+						color: white;
+					}
+				}
+			}
+		
+		}
+	
+
+		a{
+			@include transition(color 0.15s ease-out 0s);
+			color: $color__text-main;
+
+			i{
+				margin-right: 0.4em;
+				display: inline-block;
+			}						
+		}
+		
+		ul li:first-child a i{
+			vertical-align: middle;
+		}
+		
+	}
+}
+
+
+@include media($mobile){
+	
+	html{
+		margin-top: 0px !important;
+	}
+	
+	#wpadminbar{
+		display: none;
+	}
+	
+	body{
+		padding-top: 0px;
+	}
+	
+	.site-header{
+		background-color: #fff;
+		@include transition(top 0.25s ease-out 0s);
+
+	}
+	
+	.single, .page{
+		.site-header.hide{
+			top:-84px;			
+		}
+	}
+}		
+
