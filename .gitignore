@@ -46,8 +46,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # General CodeKit files to ignore
-config.codekit
-.codekit-config.json
 
 node_modules
 dist
