@@ -68,15 +68,18 @@
 			}
 			
 			.subtitle{
-				font-size: 1.5em;
+				font-size: 1.6em;
+				color: #767676;				
 				text-align: center;
+		    text-transform: uppercase;
+		    font-weight: 600;
 			}
 
 			.title{
-			font-size: 2em;
-	    color: #C5C5C5;
-	    text-transform: uppercase;
-	    font-weight: 600;
+				font-size: 2em;
+	   	 color: #C5C5C5;
+		 	 text-transform: uppercase;
+	   	 font-weight: 600;
 				text-align: center;
 				margin: 0 0 2em;
 				
@@ -494,6 +497,13 @@
 	
 	
 	section.photos{
+		
+		.credit{
+	  	color: #A5A5A5;
+	  	font-size: 0.8em;
+	  	text-align: center;
+	  	margin: 1em 0;
+		}
 		.photo-container{
 			
 			
@@ -511,6 +521,20 @@
 				padding-bottom: $gutter/2;		
 			}
 		}	
+		
+		.photo-container-alt{
+			
+			div:first-child{
+				float:right;								
+				padding-right: 0;		
+			}
+
+			div{
+				padding-left: 0;		
+				padding-right: $gutter/2;		
+
+			}			
+		}
 	}
 
 	section.team{

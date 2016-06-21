@@ -776,8 +776,11 @@ body {
         padding-left: 14px;
         padding-right: 14px; } }
     .site-content section .inner .subtitle, .site-content section .inner-container .subtitle {
-      font-size: 1.5em;
-      text-align: center; }
+      font-size: 1.6em;
+      color: #767676;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600; }
     .site-content section .inner .title, .site-content section .inner-container .title {
       font-size: 2em;
       color: #C5C5C5;
@@ -1084,6 +1087,11 @@ body {
     transition: opacity-color 0.25s ease-out 0s; }
     .site-content section.sponsors .sponsor-container a:hover {
       opacity: 0.7; }
+.site-content section.photos .credit {
+  color: #A5A5A5;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1em 0; }
 .site-content section.photos .photo-container div:first-child {
   width: 50%;
   padding-left: 0; }
@@ -1093,6 +1101,12 @@ body {
   margin: 0px;
   padding-left: 20px;
   padding-bottom: 20px; }
+.site-content section.photos .photo-container-alt div:first-child {
+  float: right;
+  padding-right: 0; }
+.site-content section.photos .photo-container-alt div {
+  padding-left: 0;
+  padding-right: 20px; }
 .site-content section.team .team-container {
   margin: 0 auto;
   width: 60%;
