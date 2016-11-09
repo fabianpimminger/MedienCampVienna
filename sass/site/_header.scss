@@ -91,7 +91,7 @@ body{
 	
 
 		a{
-			@include transition(color 0.15s ease-out 0s);
+			transition: color 0.15s ease-out 0s;
 			color: $color__text-main;
 
 			i{
@@ -124,7 +124,7 @@ body{
 	
 	.site-header{
 		background-color: #fff;
-		@include transition(top 0.25s ease-out 0s);
+		transition: top 0.25s ease-out 0s;
 
 	}
 	

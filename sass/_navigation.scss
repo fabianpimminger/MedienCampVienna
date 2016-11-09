@@ -49,7 +49,7 @@
 
 		&:hover > a,
 		&.focus > a {
-			@include transition(color 0.15s ease-out 0s);		
+			transition: color 0.15s ease-out 0s;		
 			color: $color__link;
 
 		}
