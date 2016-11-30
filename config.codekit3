@@ -2555,7 +2555,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/mediencamp-sponsor-clutch.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/sponsors\/mediencamp-sponsor-helga.png": {
 		"ft": 32768,
@@ -2619,7 +2619,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/mediencamp-sponsor-microsoft.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/sponsors\/mediencamp-sponsor-mokant.png": {
 		"ft": 32768,
