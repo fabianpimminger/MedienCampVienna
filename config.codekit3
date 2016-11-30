@@ -2549,6 +2549,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/sponsors\/mediencamp-sponsor-clutch.png": {
+		"ft": 32768,
+		"iS": 3483,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-clutch.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/sponsors\/mediencamp-sponsor-helga.png": {
 		"ft": 32768,
 		"iS": 5052,
@@ -2602,6 +2610,14 @@
 		"iS": 4948,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/mediencamp-sponsor-meinl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-microsoft.png": {
+		"ft": 32768,
+		"iS": 4799,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-microsoft.png",
 		"oF": 0,
 		"opt": 0
 		},
