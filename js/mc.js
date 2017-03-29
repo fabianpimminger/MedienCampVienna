@@ -4,18 +4,18 @@
 
 var MC = (function($){
 	'use strict';
-	
+
   var _setupEventHandlers = function(){
-	  
-	  
-		$('.countdown').countdown("2016/12/03, 9:00", function(event) {
+
+
+		$('.countdown').countdown("2017/12/02, 9:00", function(event) {
 			$(".countdown .weeks").text(event.offset.weeks);
 			$(".countdown .days").text(event.offset.days);
 			$(".countdown .hours").text(event.offset.hours);
 			$(".countdown .minutes").text(event.offset.minutes);
 			$(".countdown .seconds").text(event.offset.seconds);
 		});
-		
+
 		cheet('c a t s', function () {
 			moarcats();
 		  $("#catcontainer").show();
@@ -28,7 +28,7 @@ var MC = (function($){
     catcontainer.innerHTML = "";
     catcontainer.innerHTML = '<img src="http://edgecats.net?r='+timestamp+'" alt="random cat"/>';
   };
-  
+
   var init = function(){
     //setup
 
@@ -38,7 +38,7 @@ var MC = (function($){
 		    offsetTop: 50,
 		    stopOnInteraction: false
 		  });
-		  
+
 		  $("#buy").click(function(ev) {
 			  ev.preventDefault();
 			  $( "#tickets" ).slideDown( "slow", function() {
@@ -46,16 +46,16 @@ var MC = (function($){
 						offset: -150,    scrollTarget: $( "#tickets" )
 	        });
 			  });
-			  
-			  
+
+
 		  });
-    	
+
     	_setupEventHandlers();
 		});
   };
 
   return {
-      init : init 
+      init : init
   };
 
 })(jQuery);

@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19142",
+"creatorBuild": "19137",
 "files": {
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 0,
@@ -3005,6 +3005,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sponsors\/mediencamp-sponsor-ax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4739,
+		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-ax.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-ax.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sponsors\/mediencamp-sponsor-brandwatch.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3012,6 +3023,17 @@
 		"initialSize": 5276,
 		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-brandwatch.png",
 		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-brandwatch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-clutch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3471,
+		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-clutch.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-clutch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3089,6 +3111,17 @@
 		"initialSize": 4948,
 		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-meinl.png",
 		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-meinl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-microsoft.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1317,
+		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-microsoft.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-microsoft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3177,6 +3210,17 @@
 		"initialSize": 3636,
 		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-wallsio.png",
 		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-wallsio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-whm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4507,
+		"inputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-whm.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/mediencamp-sponsor-whm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
