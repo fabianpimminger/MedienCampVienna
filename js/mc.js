@@ -46,6 +46,15 @@ var MC = (function($){
 						offset: -150,    scrollTarget: $( "#tickets" )
 	        });
 			  });
+		  });
+
+		  $("#signup").click(function(ev) {
+			  ev.preventDefault();
+			  $( "#newsletter" ).slideDown( "slow", function() {
+					$.smoothScroll({
+						offset: -150,    scrollTarget: $( "#newsletter" )
+	        });
+			  });
 
 
 		  });

@@ -932,7 +932,7 @@ body {
         .site-content section.hero .sharing li {
           margin: 0 1.3em 0 0; } }
 
-.site-content section#tickets {
+.site-content section#tickets, .site-content section#newsletter {
   display: none; }
 
 .site-content section.about .intro {
