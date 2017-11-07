@@ -1181,22 +1181,21 @@ body {
   font-size: 1.2em;
   color: white;
   text-align: center; }
-
-.footer-navigation ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0; }
-
-.footer-navigation li {
-  display: inline-block;
-  position: relative;
-  list-style: none;
-  margin-right: 1.2em; }
-
-.footer-navigation a {
-  display: block;
-  text-decoration: none;
-  color: white; }
+  .site-footer a {
+    color: white;
+    text-decoration: underline; }
+    .site-footer a:hover {
+      text-decoration: none; }
+  .site-footer .site-info {
+    font-size: 0.85em; }
+    .site-footer .site-info .sosumi .sosumi-title {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 0.1em;
+      font-size: 0.85em;
+      letter-spacing: 0.1em; }
+    .site-footer .site-info .by {
+      margin-bottom: 1.2em; }
 
 /*--------------------------------------------------------------
 # Twemoji
