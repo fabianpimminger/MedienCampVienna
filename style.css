@@ -1084,8 +1084,8 @@ body {
     -webkit-transition: opacity-color 0.25s ease-out 0s;
     transition: opacity-color 0.25s ease-out 0s;
     display: inline-block;
-    margin-right: 0.2em;
-    margin-left: 0.2em; }
+    margin-right: 0.4em;
+    margin-left: 0.4em; }
     .site-content section.sponsors .sponsor-container a:hover {
       opacity: 0.7; }
 
