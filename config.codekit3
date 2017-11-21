@@ -2589,6 +2589,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/sponsors\/mediencamp-sponsor-ja.png": {
+		"ft": 32768,
+		"iS": 5415,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-ja.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/sponsors\/mediencamp-sponsor-janatuerlich.png": {
 		"ft": 32768,
 		"iS": 7718,
@@ -2690,6 +2698,14 @@
 		"iS": 5590,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/mediencamp-sponsor-stiegl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-tirol.png": {
+		"ft": 32768,
+		"iS": 2603,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-tirol.png",
 		"oF": 0,
 		"opt": 0
 		},
