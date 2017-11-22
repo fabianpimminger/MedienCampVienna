@@ -494,8 +494,8 @@
 			a{
 				transition: opacity-color 0.25s ease-out 0s;
 				display: inline-block;
-				margin-right: 0.4em;
-				margin-left: 0.4em;
+		    margin-right: 1em;
+		    margin-left: 1em;
 
 				&:hover{
 					opacity: 0.7;
