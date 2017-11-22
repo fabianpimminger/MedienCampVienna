@@ -2661,6 +2661,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/sponsors\/mediencamp-sponsor-ottakringer.png": {
+		"ft": 32768,
+		"iS": 8462,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-ottakringer.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/sponsors\/mediencamp-sponsor-pona.png": {
 		"ft": 32768,
 		"iS": 3966,
@@ -2706,6 +2714,14 @@
 		"iS": 2603,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/mediencamp-sponsor-tirol.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/sponsors\/mediencamp-sponsor-ubit.png": {
+		"ft": 32768,
+		"iS": 6062,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mediencamp-sponsor-ubit.png",
 		"oF": 0,
 		"opt": 0
 		},
