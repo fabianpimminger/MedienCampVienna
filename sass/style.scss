@@ -2,9 +2,10 @@
 /*--------------------------------------------------------------
 # Bourbon / Neat
 --------------------------------------------------------------*/
-@import "bourbon";
+@import "../bower_components/bourbon/bourbon";
 @import "grid-settings";
-@import "neat";	
+@import "../bower_components/neat/neat";
+
 
 /*--------------------------------------------------------------
 # Variables

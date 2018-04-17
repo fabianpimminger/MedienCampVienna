@@ -8,7 +8,7 @@ var MC = (function($){
   var _setupEventHandlers = function(){
 
 
-		$('.countdown').countdown("2017/12/02, 9:00", function(event) {
+		$('.countdown').countdown("2018/12/01, 9:00", function(event) {
 			$(".countdown .weeks").text(event.offset.weeks);
 			$(".countdown .days").text(event.offset.days);
 			$(".countdown .hours").text(event.offset.hours);
@@ -39,14 +39,14 @@ var MC = (function($){
 		    stopOnInteraction: false
 		  });
 
-		  $("#buy").click(function(ev) {
+		  /*$("#buy").click(function(ev) {
 			  ev.preventDefault();
 			  $( "#tickets" ).slideDown( "slow", function() {
 					$.smoothScroll({
 						offset: -150,    scrollTarget: $( "#tickets" )
 	        });
 			  });
-		  });
+		  });*/
 
 		  $("#signup").click(function(ev) {
 			  ev.preventDefault();

@@ -2,10 +2,12 @@
 # Bourbon / Neat
 --------------------------------------------------------------*/
 html {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 *, *::after, *::before {
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 /*--------------------------------------------------------------
 # Variables
@@ -193,7 +195,8 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0; }
 
 /**
@@ -299,7 +302,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -320,7 +324,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 2 */ }
 
 /**
@@ -453,13 +458,15 @@ big {
 # Elements
 --------------------------------------------------------------*/
 html {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 *,
 *:before,
 *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 body {
   background: #fff;
@@ -532,7 +539,8 @@ object {
   padding-left: 0;
   text-align: right; }
   .main-navigation ul ul {
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 1.5em;
     left: -999em;
@@ -834,7 +842,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.6)));
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
     background-repeat: repeat-x; }
   .site-content section.hero h1.title {
@@ -910,7 +918,8 @@ body {
         -webkit-transition: background-color 0.15s ease-out 0s, color 0.15s ease-out 0s;
         transition: background-color 0.15s ease-out 0s, color 0.15s ease-out 0s;
         text-decoration: none;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
         border-radius: 3px; }
         .site-content section.hero .sharing li a:hover {
           color: #FFF; }
@@ -1018,7 +1027,8 @@ body {
       border-radius: 50%;
       border: 3px solid #0F9EC5;
       background-color: white;
-      box-shadow: 0px 0px 0px 4px white; }
+      -webkit-box-shadow: 0px 0px 0px 4px white;
+              box-shadow: 0px 0px 0px 4px white; }
     .site-content section.schedule .timetable article a:hover {
       text-decoration: underline; }
     .site-content section.schedule .timetable article time {
@@ -1089,30 +1099,28 @@ body {
     .site-content section.sponsors .sponsor-container a:hover {
       opacity: 0.7; }
 
-.site-content section.photos .credit {
-  color: #A5A5A5;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 1em 0; }
-
-.site-content section.photos .photo-container div:first-child {
-  width: 50%;
-  padding-left: 0; }
-
-.site-content section.photos .photo-container div {
-  float: left;
-  width: 25%;
-  margin: 0px;
-  padding-left: 20px;
-  padding-bottom: 20px; }
-
-.site-content section.photos .photo-container-alt div:first-child {
-  float: right;
-  padding-right: 0; }
-
-.site-content section.photos .photo-container-alt div {
-  padding-left: 0;
-  padding-right: 20px; }
+.site-content section.photos {
+  border-bottom: 10px solid #F1F1F1; }
+  .site-content section.photos .credit {
+    color: #A5A5A5;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 1em 0; }
+  .site-content section.photos .photo-container div:first-child {
+    width: 50%;
+    padding-left: 0; }
+  .site-content section.photos .photo-container div {
+    float: left;
+    width: 25%;
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px; }
+  .site-content section.photos .photo-container-alt div:first-child {
+    float: right;
+    padding-right: 0; }
+  .site-content section.photos .photo-container-alt div {
+    padding-left: 0;
+    padding-right: 20px; }
 
 .site-content section.team .team-container {
   margin: 0 auto;
