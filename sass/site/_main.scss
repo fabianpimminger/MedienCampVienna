@@ -351,6 +351,13 @@
 		    font-size: 1.4em;
 		    color: white;
 		    text-align: center;
+		    
+		    svg{
+					max-width: 1.2em;
+					height: auto;
+			    display: inline-block;
+			    vertical-align: sub;
+		    }
 		  }
 		
 		
