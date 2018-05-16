@@ -444,6 +444,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 p {
+  margin-top: 0px;
   margin-bottom: 1.5em; }
 
 dfn, cite, em, i {
@@ -1034,6 +1035,23 @@ body {
     line-height: 1.5em; }
   .site-content section.about .bullets img {
     max-width: 100%; }
+
+.site-content section.text .title {
+  color: #131313; }
+
+.site-content section.text .entry-content {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto; }
+  .site-content section.text .entry-content h2, .site-content section.text .entry-content h3 {
+    margin-top: 1.1em;
+    margin-bottom: 0.4em; }
+  .site-content section.text .entry-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-decoration: underline; }
+    .site-content section.text .entry-content a:hover {
+      text-decoration: none; }
 
 .site-content section.schedule .timetable-container {
   margin: 0 auto;

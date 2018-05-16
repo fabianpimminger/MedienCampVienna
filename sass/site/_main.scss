@@ -397,6 +397,37 @@
 
 	}
 	
+	section.text{
+		
+		.title{
+			color: #131313;
+		}
+		
+		.entry-content{
+			max-width: 760px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			h2, h3{
+				margin-top: 1.1em;
+				margin-bottom: 0.4em;
+			}
+			
+			
+			a{
+			  overflow-wrap: break-word;
+			  word-wrap: break-word;
+				text-decoration: underline;
+				
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+		
+		
+	}
+	
 	section.schedule{
 		
 		.timetable-container{
