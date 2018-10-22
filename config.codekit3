@@ -2358,17 +2358,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/sponsors/mediencamp-sponsor-boku.png": {
-		"ft": 32768,
-		"iS": 5210,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-boku.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/sponsors/mediencamp-sponsor-brandwatch.png": {
 		"ft": 32768,
 		"iS": 5276,
@@ -2388,28 +2377,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-coca-cola.png": {
-		"ft": 32768,
-		"iS": 5231,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-coca-cola.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-google.png": {
-		"ft": 32768,
-		"iS": 4178,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-google.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2446,44 +2413,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/sponsors/mediencamp-sponsor-hornig.png": {
-		"ft": 32768,
-		"iS": 4947,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-hornig.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-hub.png": {
-		"ft": 32768,
-		"iS": 6593,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-hub.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/sponsors/mediencamp-sponsor-ja.png": {
 		"ft": 32768,
 		"iS": 5415,
 		"oA": 0,
 		"oAP": "/img/sponsors/mediencamp-sponsor-ja.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-janatuerlich.png": {
-		"ft": 32768,
-		"iS": 7718,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-janatuerlich.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -2539,17 +2473,6 @@
 		"iS": 3351,
 		"oA": 0,
 		"oAP": "/img/sponsors/mediencamp-sponsor-mokant.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-myproduct.png": {
-		"ft": 32768,
-		"iS": 4916,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-myproduct.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
