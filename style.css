@@ -30,12 +30,10 @@
 # Bourbon / Neat
 --------------------------------------------------------------*/
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 *, *::after, *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+  box-sizing: inherit; }
 
 /*--------------------------------------------------------------
 # Variables
@@ -223,8 +221,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0; }
 
 /**
@@ -330,8 +327,7 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -352,8 +348,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 2 */ }
 
 /**
@@ -487,15 +482,13 @@ big {
 # Elements
 --------------------------------------------------------------*/
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 *,
 *:before,
 *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+  box-sizing: inherit; }
 
 body {
   background: #fff;
@@ -568,8 +561,7 @@ object {
   padding-left: 0;
   text-align: right; }
   .main-navigation ul ul {
-    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 1.5em;
     left: -999em;
@@ -591,7 +583,6 @@ object {
   margin: 0 0.7em; }
   .main-navigation li:hover > a,
   .main-navigation li.focus > a {
-    -webkit-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s;
     color: #0F9EC5; }
 
@@ -738,7 +729,6 @@ body {
         .site-header .main-navigation ul li.active a {
           color: white; }
     .site-header .main-navigation a {
-      -webkit-transition: color 0.15s ease-out 0s;
       transition: color 0.15s ease-out 0s;
       color: #131313; }
       .site-header .main-navigation a i {
@@ -756,7 +746,6 @@ body {
     padding-top: 0px; }
   .site-header {
     background-color: #fff;
-    -webkit-transition: top 0.25s ease-out 0s;
     transition: top 0.25s ease-out 0s; }
   .single .site-header.hide, .page .site-header.hide {
     top: -84px; } }
@@ -775,7 +764,6 @@ body {
   display: inline-block;
   color: white;
   background-color: rgba(15, 158, 197, 0.68);
-  -webkit-transition: background-color 0.25s ease-out 0s, border-color 0.25s ease-out 0s;
   transition: background-color 0.25s ease-out 0s, border-color 0.25s ease-out 0s;
   padding: 0.3em 0.5em;
   font-size: 1.5em;
@@ -841,7 +829,6 @@ body {
           position: absolute;
           bottom: 0;
           z-index: -1;
-          -webkit-transition: height 0.20s ease-out 0s, opacity 0.20s ease-out 0s;
           transition: height 0.20s ease-out 0s, opacity 0.20s ease-out 0s;
           opacity: 0.05; }
         .site-content section .inner .title a:hover:before, .site-content section .inner-container .title a:hover:before {
@@ -871,7 +858,6 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.6)));
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
     background-repeat: repeat-x; }
   .site-content section.hero h1.title {
@@ -941,14 +927,12 @@ body {
         display: block;
         padding: 0.3em 0.4em;
         color: rgba(0, 0, 0, 0.6);
-        border: 1px solid transparent;
+        border: 1px solid rgba(0, 0, 0, 0);
         background-color: transparent;
         font-size: 1.2em;
-        -webkit-transition: background-color 0.15s ease-out 0s, color 0.15s ease-out 0s;
         transition: background-color 0.15s ease-out 0s, color 0.15s ease-out 0s;
         text-decoration: none;
-        -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
         border-radius: 3px; }
         .site-content section.hero .sharing li a:hover {
           color: #FFF; }
@@ -984,21 +968,15 @@ body {
       margin-right: 0em; } }
 
 .site-content section.about .bullets {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 1.5em;
   margin: 1em;
   overflow: auto;
   padding: 0; }
   .site-content section.about .bullets .bullet {
-    -ms-flex-preferred-size: 20em;
-        flex-basis: 20em;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    flex-basis: 20em;
+    flex-grow: 1;
     padding-left: 1em;
     padding-right: 1em; }
   .site-content section.about .bullets .bullet-icon {
@@ -1078,8 +1056,7 @@ body {
       border-radius: 50%;
       border: 3px solid #0F9EC5;
       background-color: white;
-      -webkit-box-shadow: 0px 0px 0px 4px white;
-              box-shadow: 0px 0px 0px 4px white; }
+      box-shadow: 0px 0px 0px 4px white; }
     .site-content section.schedule .timetable article a:hover {
       text-decoration: underline; }
     .site-content section.schedule .timetable article time {
@@ -1142,11 +1119,11 @@ body {
 .site-content section.sponsors .sponsor-container {
   text-align: center; }
   .site-content section.sponsors .sponsor-container a {
-    -webkit-transition: opacity-color 0.25s ease-out 0s;
     transition: opacity-color 0.25s ease-out 0s;
     display: inline-block;
     margin-right: 1em;
-    margin-left: 1em; }
+    margin-left: 1em;
+    max-width: 150px; }
     .site-content section.sponsors .sponsor-container a:hover {
       opacity: 0.7; }
 

@@ -2336,17 +2336,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/sponsors/mediencamp-sponsor-apa.png": {
-		"ft": 32768,
-		"iS": 3964,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-apa.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/sponsors/mediencamp-sponsor-ax.png": {
 		"ft": 32768,
 		"iS": 4739,
@@ -2407,17 +2396,6 @@
 		"iS": 3659,
 		"oA": 0,
 		"oAP": "/img/sponsors/mediencamp-sponsor-horizont.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/sponsors/mediencamp-sponsor-ja.png": {
-		"ft": 32768,
-		"iS": 5415,
-		"oA": 0,
-		"oAP": "/img/sponsors/mediencamp-sponsor-ja.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
