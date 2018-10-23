@@ -1123,7 +1123,8 @@ body {
     display: inline-block;
     margin-right: 1em;
     margin-left: 1em;
-    max-width: 150px; }
+    max-width: 150px;
+    transition: opacity 0.15s ease-in-out; }
     .site-content section.sponsors .sponsor-container a:hover {
       opacity: 0.7; }
 
