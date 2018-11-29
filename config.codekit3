@@ -2336,6 +2336,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/sponsors/mediencamp-sponsor-apa.png": {
+		"ft": 32768,
+		"iS": 9107,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-apa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/sponsors/mediencamp-sponsor-ax.png": {
 		"ft": 32768,
 		"iS": 4739,
@@ -2344,6 +2355,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-boku.png": {
+		"ft": 32768,
+		"iS": 11870,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-boku.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2366,6 +2388,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-coca-cola.png": {
+		"ft": 32768,
+		"iS": 11549,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-coca-cola.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-google.png": {
+		"ft": 32768,
+		"iS": 9239,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-google.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2399,6 +2443,61 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-hornig.png": {
+		"ft": 32768,
+		"iS": 11822,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-hornig.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-hub.png": {
+		"ft": 32768,
+		"iS": 20571,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-hub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-ja.png": {
+		"ft": 32768,
+		"iS": 13652,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-ja.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-janatuerlich.png": {
+		"ft": 32768,
+		"iS": 19370,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-janatuerlich.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-lugus.png": {
+		"ft": 32768,
+		"iS": 23428,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-lugus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2451,6 +2550,17 @@
 		"iS": 3351,
 		"oA": 0,
 		"oAP": "/img/sponsors/mediencamp-sponsor-mokant.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/sponsors/mediencamp-sponsor-myproduct.png": {
+		"ft": 32768,
+		"iS": 10518,
+		"oA": 0,
+		"oAP": "/img/sponsors/mediencamp-sponsor-myproduct.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
