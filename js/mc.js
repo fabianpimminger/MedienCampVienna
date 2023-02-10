@@ -8,7 +8,7 @@ var MC = (function($){
   var _setupEventHandlers = function(){
 
 
-		$('.countdown').countdown("2019/11/16, 9:00", function(event) {
+		$('.countdown').countdown("2023/11/04, 9:00", function(event) {
 			$(".countdown .weeks").text(event.offset.weeks);
 			$(".countdown .days").text(event.offset.days);
 			$(".countdown .hours").text(event.offset.hours);
